@@ -4,7 +4,6 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.Controller">
    <children>
       <Button fx:id="up" layoutX="250.0" layoutY="20.0" mnemonicParsing="false" onAction="#up" prefHeight="30.0" prefWidth="100.0" text="Up" AnchorPane.topAnchor="20.0" />
@@ -12,5 +11,6 @@
       <Button fx:id="left" layoutX="14.0" layoutY="171.0" mnemonicParsing="false" onAction="#left" prefHeight="30.0" prefWidth="100.0" text="Left" AnchorPane.leftAnchor="20.0" />
       <Button fx:id="right" layoutX="478.0" layoutY="171.0" mnemonicParsing="false" onAction="#right" prefHeight="30.0" prefWidth="100.0" text="Right" AnchorPane.rightAnchor="20.0" />
       <Circle fx:id="circle" fill="DODGERBLUE" layoutX="300.0" layoutY="181.0" radius="50.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="scene2" layoutX="457.0" layoutY="350.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="30.0" prefWidth="100.0" text="Scene 2" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
    </children>
 </AnchorPane>
