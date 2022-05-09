@@ -9,6 +9,7 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
@@ -23,6 +24,12 @@ public class Scene2Controller {
     private ImageView imageView;
     @FXML
     private Button changeImage;
+    @FXML
+    private Button ageCheckBtn;
+    @FXML
+    private TextField ageField;
+    @FXML
+    private Label signInLabel;
 
     private Stage stage;
     private Scene scene;
@@ -62,5 +69,24 @@ public class Scene2Controller {
     public void changeImage(ActionEvent event) {
         Image image = new Image(getClass().getResourceAsStream("../images/File2.png"));
         imageView.setImage(image);
+    }
+
+    public void signIn(ActionEvent event) {
+        try {
+            int age = Integer.parseInt(ageField.getText());
+            if (age >= 18) {
+                signInLabel.setText("You are eligible to sign in!");
+            } else {
+                signInLabel.setText("You are not eligible to sign in!");
+            }
+        } catch (NumberFormatException e) {
+            signInLabel.setText("Please enter a valid Number!");
+            System.out.println("Please enter valid number");
+        }
+
+        catch (Exception e) {
+            signInLabel.setText("Error");
+            System.out.println("Please enter valid number");
+        }
     }
 }
