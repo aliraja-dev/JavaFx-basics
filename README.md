@@ -4,6 +4,8 @@ Using JavaFX, Scene Builder and Java IO for Persistence a basic Flashcard client
 
 ## Getting Started
 
+https://openjfx.io/openjfx-docs/
+
 ### Revisions to launch.json
 
 Using Vs code update the "vmArgs": "--module-path <path to jar files of Javafx> --add-modules=javafx.controls,javafx.fxml"
