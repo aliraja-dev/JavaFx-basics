@@ -12,7 +12,14 @@ public class Main extends Application {
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("main.fxml"));
         primaryStage.setTitle("JavaFx Project");
-        primaryStage.setScene(new Scene(root));
+        Scene scene = new Scene(root);
+        scene.getStylesheets().add(getClass().getResource("main.css").toExternalForm());
+        // When we have multiple scenes, we can add them the same CSS file or separate
+        // css files by storing the css =
+        // this.getClass().getResource("main.css").toExternalForm(); in a string and
+        // then reusing that for every scene in getstylesheets().add(css);
+
+        primaryStage.setScene(scene);
         primaryStage.show();
     }
 

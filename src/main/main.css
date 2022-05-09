@@ -1,0 +1,33 @@
+/* Name it whatever you want it */
+
+/* We can style using fx-id and class names for multiple elements */
+
+
+#up{
+    -fx-background-color: #00ff00;
+}
+
+#down{
+    -fx-background-color: #ff0000;
+}
+
+#left{
+    -fx-background-color: #0000ff;
+    -fx-text-fill: #ffffff;
+}
+
+#right{
+    -fx-background-color: #ffff00;
+}
+
+.root{
+    -fx-background-color: #111;
+}
+
+.button{
+    -fx-border: 1px solid #000000;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-font-family: "Verdana";
+    -fx-padding: 10px;
+}
