@@ -2,6 +2,34 @@
 
 Using JavaFX and scene builder this project explores basics of JavaFx using VS Code as IDE.
 
+### Homepage - Scene 1 - Using Scene Builder for JavaFx
+
+![homepage](images/scene1.png)
+
+#### Passing data to Scene 2
+
+![homepage](images/dataForScene2.png)
+
+#### Scene 2
+
+![homepage](images/scene2.png)
+
+#### On Click Button Change Image - Image View
+
+![homepage](images/changeImage.png)
+
+#### On Click Button Change Image - Image View
+
+![homepage](images/changeImage.png)
+
+#### Exit Confirmation
+
+![homepage](images/exit.png)
+
+#### Validation of User Input
+
+![homepage](images/validation.png)
+
 ## Getting Started
 
 https://openjfx.io/openjfx-docs/
