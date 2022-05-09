@@ -1,3 +1,7 @@
+# Flashcards App - JavaFX
+
+Using JavaFX, Scene Builder and Java IO for Persistence a basic Flashcard client App
+
 ## Getting Started
 
 ### Revisions to launch.json
