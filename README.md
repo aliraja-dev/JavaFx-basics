@@ -1,10 +1,21 @@
-# Flashcards App - JavaFX
+# JavaFx-basics
 
-Using JavaFX, Scene Builder and Java IO for Persistence a basic Flashcard client App
+Using JavaFX and scene builder this project explores basics of JavaFx using VS Code as IDE.
 
 ## Getting Started
 
 https://openjfx.io/openjfx-docs/
+
+Setting Java_Home o n MacOS
+https://mkyong.com/java/how-to-set-java_home-environment-variable-on-mac-os-x/
+
+https://jenkov.com/tutorials/javafx/index.html#javafx-books
+
+Oracle Client Technologies
+https://docs.oracle.com/javase/8/javase-clienttechnologies.htm
+
+Bro Code Playlist on JavaFx
+https://www.youtube.com/playlist?list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev
 
 ### Revisions to launch.json
 
