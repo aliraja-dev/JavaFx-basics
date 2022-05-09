@@ -9,6 +9,8 @@ import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ButtonType;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.stage.Stage;
 import javafx.scene.Node;
 
@@ -17,6 +19,10 @@ public class Scene2Controller {
     private Label InputLabel;
     @FXML
     private Button exitBtn;
+    @FXML
+    private ImageView imageView;
+    @FXML
+    private Button changeImage;
 
     private Stage stage;
     private Scene scene;
@@ -51,5 +57,10 @@ public class Scene2Controller {
             stage.close();
         }
         // System.exit(0);
+    }
+
+    public void changeImage(ActionEvent event) {
+        Image image = new Image(getClass().getResourceAsStream("../images/File2.png"));
+        imageView.setImage(image);
     }
 }
